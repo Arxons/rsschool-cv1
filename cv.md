@@ -53,3 +53,15 @@ return Math.max(newArr);
 }
 ```
 ---
+
+### Courses:
+ 
+- Basic HTML and CSS, JS algorithms on [freecodecamp](https://www.freecodecamp.org) (completed)<br>
+- RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+ 
+---
+ 
+### Languages:
+ 
+- English \- B1
+- Russian \- Native
