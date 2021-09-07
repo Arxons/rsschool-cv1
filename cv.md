@@ -20,3 +20,13 @@ Once, when I was doing another project the customer tightened the deadline and I
 I had never worked for any company before. I used to do orders from people I knew. Or did something for myself.<br>
  
 ---
+
+### My Skills:
+ 
+- HTML5, CSS3
+- JavaScript Basics
+- Git, GitHub
+- VS Code,
+- Adobe Photoshop, Adobe Premier Pro, Adobe Audition
+ 
+---
