@@ -7,10 +7,13 @@ body{
 .containeer{
     margin: 20px auto;
     width: 1024px;
-    /*height: 100vh;*/
     display: flex;
-    /* grid-template-columns: 40% 60%; */
     box-shadow: 10px 10px 40px -1px gray;
+}
+
+.dec-right{
+    width: 60%;
+    background-color: rgb(212, 212, 212);
 }
 
 .dec-left{
@@ -116,4 +119,92 @@ li{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     display: inline;
+}
+
+.subheader{
+    margin: 100px auto 0;
+    width: 450px;
+    height: 50px;
+
+    background-color: rgb(39, 39, 39);
+}
+
+.dec-right h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    padding-top: 10px;
+    padding-left: 35px;
+    
+    color: rgb(212, 212, 212);
+}
+
+.aboutme{
+    margin: 20px auto 0;
+    width: 450px;
+}
+
+.aboutme p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.subcourses{
+    margin: 0 auto;
+    width: 450px;
+    height: 50px;
+
+    background-color: rgb(39, 39, 39);
+}
+
+.courses{
+    margin: 20px auto 0;
+    width: 450px;
+}
+
+.courses ul li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+
+    margin-left: -25px;
+    margin-bottom: 10px;
+}
+
+.subcode{
+    margin: 0 auto;
+    width: 450px;
+    height: 50px;
+
+    background-color: rgb(39, 39, 39);
+}
+
+.code p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.hljs{
+    width: 440px;
+    height: 150px;
+}
+
+.hljs::-webkit-scrollbar{
+    background: rgb(212, 212, 212);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2) inset;
+}
+
+.hljs::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, rgb(189, 189, 189) 0%, #89a1a7 100%);
+    background-size: contain;
+    border-radius: 8px;
+    border: 1px solid #C0D8DE;
 }
