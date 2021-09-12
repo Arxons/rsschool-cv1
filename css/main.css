@@ -5,7 +5,7 @@ body{
 }
 
 .containeer{
-    margin: 20px auto;
+    margin: 20px auto 0;
     width: 1024px;
     display: flex;
     box-shadow: 10px 10px 40px -1px gray;
@@ -207,4 +207,53 @@ li{
     background-size: contain;
     border-radius: 8px;
     border: 1px solid #C0D8DE;
+}
+
+footer{
+    width: 944px;
+    height: 20px;
+    margin: 0 auto 20px;
+    padding: 40px;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #C0D8DE;
+    box-shadow: 10px 10px 40px -1px gray;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.rs{
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+.copy{
+    margin: -1px auto;
+}
+
+.github{
+    margin-top: -25px;
+    padding-right: 30px;
+}
+
+footer a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.git__link{
+    text-decoration: none;
+    margin: -52px;
+    margin-left: -130px;
+}
+
+footer a:hover{
+    color:rgb(55, 116, 207)
 }
