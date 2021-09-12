@@ -1,0 +1,259 @@
+body{
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.containeer{
+    margin: 20px auto 0;
+    width: 1024px;
+    display: flex;
+    box-shadow: 10px 10px 40px -1px gray;
+}
+
+.dec-right{
+    width: 60%;
+    background-color: rgb(212, 212, 212);
+}
+
+.dec-left{
+    width: 40%;
+    background: #C0D8DE;
+}
+
+header{
+    padding: 30px 90px;
+}
+
+header img{
+    width: 210px;
+    height: 210px;
+
+    border: 5px solid rgb(100, 100, 100);
+    border-radius: 50%;
+}
+
+
+header h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 10px;
+
+    color: rgb(56, 56, 56);
+}
+header h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+main{
+    padding: 0 90px;
+}
+
+main h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contacts ul{
+    list-style: none;
+}
+li{
+    margin-left: -100px;
+}
+
+.contacts li img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.rect{
+    margin-bottom: 10px;
+}
+
+.contacts p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: inline;
+    vertical-align: middle;
+}
+
+.phone__link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.phone__link:hover{
+    color:rgb(55, 116, 207)
+}
+
+.skills ul li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-left: -50px;
+}
+
+.languages ul li{
+    margin-bottom: 10px;
+    margin-left: -50px;
+}
+
+.language {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: inline;
+}
+
+.cases {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: inline;
+}
+
+.subheader{
+    margin: 100px auto 0;
+    width: 450px;
+    height: 50px;
+
+    background-color: rgb(39, 39, 39);
+}
+
+.dec-right h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    padding-top: 10px;
+    padding-left: 35px;
+    
+    color: rgb(212, 212, 212);
+}
+
+.aboutme{
+    margin: 20px auto 0;
+    width: 450px;
+}
+
+.aboutme p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.subcourses{
+    margin: 0 auto;
+    width: 450px;
+    height: 50px;
+
+    background-color: rgb(39, 39, 39);
+}
+
+.courses{
+    margin: 20px auto 0;
+    width: 450px;
+}
+
+.courses ul li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+
+    margin-left: -25px;
+    margin-bottom: 10px;
+}
+
+.subcode{
+    margin: 0 auto;
+    width: 450px;
+    height: 50px;
+
+    background-color: rgb(39, 39, 39);
+}
+
+.code p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.hljs{
+    width: 440px;
+    height: 150px;
+}
+
+.hljs::-webkit-scrollbar{
+    background: rgb(212, 212, 212);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2) inset;
+}
+
+.hljs::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, rgb(189, 189, 189) 0%, #89a1a7 100%);
+    background-size: contain;
+    border-radius: 8px;
+    border: 1px solid #C0D8DE;
+}
+
+footer{
+    width: 944px;
+    height: 20px;
+    margin: 0 auto 20px;
+    padding: 40px;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #C0D8DE;
+    box-shadow: 10px 10px 40px -1px gray;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.rs{
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+.copy{
+    margin: -1px auto;
+}
+
+.github{
+    margin-top: -25px;
+    padding-right: 30px;
+}
+
+footer a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.git__link{
+    text-decoration: none;
+    margin: -52px;
+    margin-left: -130px;
+}
+
+footer a:hover{
+    color:rgb(55, 116, 207)
+}
