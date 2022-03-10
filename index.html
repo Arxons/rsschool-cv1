@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>CV - Stanislav Vasiurin</title>
+</head>
+
+<body>
+    <div class="containeer">
+        <div class="dec-left">
+            <header>
+                <img src="img/portrait.jpg" alt="Portrait">
+                <h1>Stanislav Vasiurin</h1>
+                <h2>Junior Front-end Developer</h2>
+            </header>
+            <main>
+                <section class="contacts">
+                    <ul>
+                        <h3>Contacts</h3>
+                        <li>
+                            <img src="img/number.png" alt="number Icon">
+                            <a class="phone__link" href="+375297106905">+375(29) 710-69-05</a>
+                        </li>
+                        <li>
+                            <img src="img/email.png" alt="email Icon">
+                            <a class="phone__link" href="mailto:vasyrin1312@gmail.com"
+                                target="_blank">vasyrin1312@gmail.com</a>
+                        </li>
+                        <li>
+                            <img src="img/vk.png" alt="vk icon">
+                            <a class="phone__link" href="https://vk.com/sloll" target="_blank">Stanislav Vasiurin</a>
+                        </li>
+                        <li>
+                            <img src="img/instagram.png" alt="instagram icon">
+                            <a class="phone__link" href="https://www.instagram.com/stas_vasyrin/"
+                                target="_blank">Stas_vasyrin</a>
+                        </li>
+                        <li>
+                            <img src="img/telegram.png" alt="telegram Icon">
+                            <a class="phone__link" href="https://t.me/Arxons" target="_blank">@Arxons</a>
+                        </li>
+                    </ul>
+                    <img class="rect" src="img/rectangle1.png" alt="Rectangle" width="230" height="3">
+                </section>
+                <section class="skills">
+                    <ul>
+                        <h3>Skills</h3>
+                        <li>
+                            HTML5, CSS3
+                        </li>
+                        <li>
+                            JavaScript Basics
+                        </li>
+                        <li>
+                            Git, GitHub
+                        </li>
+                        <li>
+                            VS Code
+                        </li>
+                        <li>
+                            Adobe Photoshop, Premier Pro
+                        </li>
+                    </ul>
+                    <img class="rect" src="img/rectangle1.png" alt="Rectangle" width="230" height="3">
+                </section>
+                <section class="languages">
+                    <ul>
+                        <h3>Languages</h3>
+                        <li>
+                            <p class="language">English:</p>
+                            <p class="cases">B1</p>
+                        </li>
+                        <li>
+                            <p class="language">Russian:</p>
+                            <p class="cases">Native</p>
+                        </li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+        <div class="dec-right">
+            <main>
+                <div class="subheader">
+                    <h1>Some words about myself</h1>
+                </div>
+                <div class="aboutme">
+                    <p>When some people are asked to say a few words about themselves, they often get confused and don't
+                        know what to answer. But that's not me. About myself I can say that my main goal is to learn and
+                        improve in the field of front-end development and everything connected with it. I would like to
+                        mention my strengths. Such as responsibility and punctuality. These are not empty
+                        words. Once, when I was doing another project the customer tightened the deadline and I had to
+                        spend
+                        the whole night completing endless lines of code instead of just going to bed.
+                        I had never worked for any company before. I used to do orders from people I knew. Or did
+                        something
+                        for myself.</p>
+                </div>
+                <div class="subcourses">
+                    <h1>Courses</h1>
+                </div>
+                <div class="courses">
+                    <ul>
+                        <li>
+                            Basic Basic HTML and CSS, JS algorithms on <a class="phone__link"
+                                href="https://www.freecodecamp.org" target="_blank">freecodecamp</a> - completed.
+                        </li>
+                        <li>
+                            <a class="phone__link" href="https://rs.school" target="_blank">RS Schools Course</a>
+                            «JavaScript/Front-end. Stage
+                            1» - in progress.
+                        </li>
+                    </ul>
+                </div>
+                <div class="subcode">
+                    <h1>Code example</h1>
+                    <div class="code">
+                        <p>Given an array of integers, find the one that appears an odd number of times.
+                            There will always be only one integer that appears an odd number of times.
+                        </p>
+                        <pre class="hljs"
+                            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(212, 212, 212); color: rgb(68, 68, 68);"><span class="hljs-function"><span class="hljs-keyword" style="font-weight: 700;">function</span> <span class="hljs-title" style="color: rgb(136, 0, 0); font-weight: 700;">findOdd</span>(<span class="hljs-params">A</span>) </span>{
+                        <span class="hljs-keyword" style="font-weight: 700;">let</span> objRes = {};
+                        <span class="hljs-keyword" style="font-weight: 700;">for</span> (<span class="hljs-keyword" style="font-weight: 700;">let</span> i = <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>; i &lt; A.length; i++) {
+                            <span class="hljs-keyword" style="font-weight: 700;">let</span> n = A[i];
+                            <span class="hljs-keyword" style="font-weight: 700;">if</span> (objRes[n] != <span class="hljs-literal" style="color: rgb(120, 169, 96);">undefined</span>) {
+                                objRes[n]++;
+                            } <span class="hljs-keyword" style="font-weight: 700;">else</span> objRes[n] = <span class="hljs-number" style="color: rgb(136, 0, 0);">1</span>;
+                        }
+                        <span class="hljs-keyword" style="font-weight: 700;">let</span> newArr = [];
+                        <span class="hljs-keyword" style="font-weight: 700;">for</span> (<span class="hljs-keyword" style="font-weight: 700;">let</span> key <span class="hljs-keyword" style="font-weight: 700;">in</span> objRes) {
+                            <span class="hljs-keyword" style="font-weight: 700;">if</span> (objRes[key] % <span class="hljs-number" style="color: rgb(136, 0, 0);">2</span> !== <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>) {
+                                newArr.push(key);
+                            }
+                        }
+                        <span class="hljs-keyword" style="font-weight: 700;">return</span> <span class="hljs-built_in" style="color: rgb(57, 115, 0);">Math</span>.max(newArr);
+                        }</pre>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <footer>
+        <a href="https://rs.school" target="_blank"><img class="rs" src="img/rss.png" width="150" height="70"></a>
+        <p class="copy">© 2021</p>
+        <a href="https://github.com/Arxons" target="_blank">
+            <img class="github" src="img/git.png">
+            <p class="git__link">Visit My GitHub</p>
+        </a>
+    </footer>
+</body>
+
+</html>
